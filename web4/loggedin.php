@@ -1,5 +1,11 @@
 <?php
    // test cookies if is set, display if set
+if(isset($_COOKIE['cookie'])){
+    $cookie = $_COOKIE['cookie'];
+}
+else{
+    echo 'Cookie is not set';
+}
 ?>
 <html lang="en">
 <head>
